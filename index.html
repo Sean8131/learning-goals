@@ -1,65 +1,90 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>title</title>
     <style>
-        body {
-            background-color: #1E212B;
-            font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
+      body {
+        background-color: #1e212b;
+        font-family: "Open Sans", "Helvetica Neue", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
 
-        .card {
-            background-color: #272D2D;
-            width: 300px;
-            height: 450px;
-            border-radius: 16px;
-            padding: 20px;
-        }
+      .card {
+        background-color: #272d2d;
+        width: 300px;
+        height: 450px;
+        border-radius: 16px;
+        padding: 20px;
+      }
 
-        .card img {
-            height: 100px;
-            max-width: 50%;
-            border-radius: 1000px;
-            margin-bottom: 5px;
+      .card img {
+        height: 100px;
+        max-width: 50%;
+        border-radius: 1000px;
+        margin-bottom: 5px;
+      }
+
+      .card h1 {
+        color: white;
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+      }
+
+      .card h2 {
+        font-size: 1rem;
+        color: white;
+        margin: 5px;
+      }
+
+      .card p {
+        font-size: 0.8rem;
+        color: #e5f0e7;
+        margin-bottom: 20px;
+      }
+
+      .card button {
+        border-radius: 16px;
+        background-color: #363b59;
+        max-height: 70px;
+        padding: 0px 10px;
+        display: block;
+        width: 300px;
+      }
+
+      .card .goals {
+        display: block;
+        justify-content: space-around;
 
 
-        }
-
-        .card h1 {
-            color: white;
-            font-size: 1.3rem;
-            margin-bottom: 20px;
-        }
-
-        .card h2 {
-            font-size: 1rem;
-            color: white;
-        }
-
-        .card p {
-            font-size: 0.8rem;
-            color: #E5F0E7;
-            margin-bottom: 20px;
-        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="card">
-        <img src="IMG_20221012_154125~2 (1).jpg" />
-        <h1>My Learning Goals</h1>
-        <h2>Taha Hinengaro</h2>
-        <p>Code a basic HTML webpage by 31st August</p>
-        <h2>Taha Whanau</h2>
-        <p>Give a presentation at Take2 by 31st September</p>
-        <h2>Taha Wairua</h2>
-        <p>Complete 100 meditations by 31st October</p>
-        <h2>Taha Tinana</h2>
-        <p>Complete 50 workouts by 30th November</p>
+      <img src="IMG_20221012_154125~2 (1).jpg" />
+      <h1>My Learning Goals</h1>
+      <div class="goals">
+        <button>
+          <h2>Taha Hinengaro</h2>
+          <p>Code a basic HTML webpage by 31st August</p>
+        </button>
+        <button>
+          <h2>Taha Whanau</h2>
+          <p>Give a presentation at Take2 by 31st September</p>
+        </button>
+        <button>
+          <h2>Taha Wairua</h2>
+          <p>Complete 100 meditations by 31st October</p>
+        </button>
+        <button>
+          <h2>Taha Tinana</h2>
+          <p>Complete 50 workouts by 30th November</p>
+        </button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
